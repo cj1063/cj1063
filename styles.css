@@ -3,6 +3,11 @@ body{
     text-align: center;
     border: 5px solid rgba(255, 0, 255, 0.158);
     border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+footer{
+    align-items: end;
 }
 
 h1{
