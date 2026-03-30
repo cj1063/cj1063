@@ -5,9 +5,10 @@ main{
 body{
     background-color: black;
     text-align: center;
-    border: 5px solid rgba(255, 0, 255, 0.158);
     border-radius: 15px;
     padding-bottom: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 footer{
@@ -15,6 +16,11 @@ footer{
 }
 
 h1{
+    margin: 10px;
+    color: white;
+}
+
+p{
     color: white;
 }
 
@@ -27,9 +33,43 @@ h6{
 }
 
 img{
-    width: 640px;
-    height: 480px;
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
     border: 3px solid rgb(59, 0, 93);
     border-radius: 15px;
-    padding: 3px;
+    margin: 10px;
+    
+}
+
+sub{
+    color: white;
+}
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+  border: 3px solid rgb(59, 0, 93);
+  border-radius: 15px;
+}
+
+.p1{
+    width: 90%;
+    height: 90%;
+}
+
+.subtext{
+    color: lightgray;
+    line-height: 5px;
+}
+
+.subtext2{
+    color: lightgray;
+    font-size: 10px;
+}
+
+.black{
+    color: black;
 }
