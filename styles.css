@@ -83,6 +83,6 @@ sub{
   font-size: 1.1rem;
   transition: opacity .2s;
   opacity: 1;
-  width: 4.4ch; /* fallback; JS will size to longest text */
+  width: 4.4ch;
   color: white;
 }
